@@ -1,0 +1,49 @@
+/* Hamburger Menu */
+.hamburger-menu.active {
+  /* Add your active state styles here */
+}
+
+#nav-menu.active {
+  /* Add your active state styles here */
+}
+
+/* Owl Carousel */
+.owl-carousel .owl-nav .owl-prev {
+  content: "<i class='bx bx-chevron-left'></i>";
+  /* Add your styles here */
+}
+
+.owl-carousel .owl-nav .owl-next {
+  content: "<i class='bx bx-chevron-right'></i>";
+  /* Add your styles here */
+}
+
+.owl-carousel .owl-dots {
+  /* Add your styles for dots here */
+}
+
+.hero-carousel .owl-item,
+.top-movies-slide .owl-item,
+.movies-slide .owl-item {
+  /* Add your item styles here */
+}
+
+@media (min-width: 500px) {
+  .top-movies-slide .owl-item {
+    /* Add styles for responsive items at min-width 500px */
+  }
+}
+
+@media (min-width: 1280px) {
+  .top-movies-slide .owl-item,
+  .movies-slide .owl-item {
+    /* Add styles for responsive items at min-width 1280px */
+  }
+}
+
+@media (min-width: 1600px) {
+  .top-movies-slide .owl-item,
+  .movies-slide .owl-item {
+    /* Add styles for responsive items at min-width 1600px */
+  }
+}
